@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', sans-serif;
+}
+body, html {
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: linear-gradient(145deg, #c02dc0, #000);
+}
+.todo-app {
+    width: 100%;
+    max-width: 400px;
+    min-height: 525px;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 15px black;
+}
+#title {
+    margin: 30px 0 10px 18px;
+}
+.input-div {
+    width: 90%;
+    border-radius: 25px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+.input-div input {
+    width: 75%;
+    font-size: 16px;
+    padding: 15px 5px 15px 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.input-div button {
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #c02dc0;
+}
+.task-status {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.task-status div {
+    margin: 0 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.task-status div:hover {
+    color: #c02dc080;
+}
+.task-status div.active {
+    color: #c02dc0;
+    border-bottom: 1px solid #c02dc0;
+}
+#tasks-info {
+    text-align: center;
+    margin-top: 25px;
+    display: none;
+}
+#list-container {
+    width: 100%;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+#list-container li {
+    padding: 12px 0;
+    padding-left: 30px;
+    padding-right: 45px;
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+    word-break: break-all;
+    cursor: pointer;
+}
+#list-container li input {
+    margin: 0 10px;
+}
+#list-container li.done {
+    color: gray;
+    text-decoration: line-through;
+}
+#check-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 2px;
+    top: 12px;
+    background-image: url(../img/unchecked.png);
+    background-size: cover;
+    cursor: auto;
+}
+#list-container li.done #check-icon {
+    background-image: url(../img/checked.png);
+}
+#more-icon {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#more-icon:hover {
+    background-color: #f1f1f1;
+}
+#more-div {
+    width: 75px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    border-radius: 5px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+}
+#more-div button {
+    border: none;
+    padding: 2px 0;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#more-div button:hover {
+    background-color: #fff;
+}
+#more-div.active {
+    visibility: visible;
+}
