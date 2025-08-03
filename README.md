@@ -1,4 +1,4 @@
-# To-Do App
+# To-Do App 📔
 Basic to-do application created with HTML/CSS and JavaScript
 
 ## Features
