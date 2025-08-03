@@ -1,11 +1,15 @@
 # To-Do App
+Basic to-do application created with HTML/CSS and JavaScript
 
-HTML/CSS, JavaScript<br>
-[Demo](https://to1vo.gitlab.io/toivo-lindholm/demos/to-do2/)
+## Features
+- Create and delete task
+- Edit the name of already existing task
+- Mark the task as done
+- Browse tasks with different status separately
+- Tasks are saved to localstorage of the browser
 
-## Ominaisuudet
-- Käyttäjä voi lisätä ja poistaa tehtävän sekä muokata sitä
-- Käyttäjä voi merkitä tehtävän tehdyksi
-- Käyttäjä voi erikseen selata tehtyjä, tekemättömiä sekä myös kaikkia tehtäviä
-- Ohjelma tallentaa tehtävät selaimen localstorageen
+<img src="https://to1vo.gitlab.io/toivo-lindholm/img/projektit/todo-app.PNG" width="400"><br>
+[Demo of this app](https://to1vo.gitlab.io/toivo-lindholm/demos/to-do2/)
 
+<br>
+Toivo Lindholm
