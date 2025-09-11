@@ -12,4 +12,4 @@ Basic to-do application created with HTML/CSS and JavaScript
 [Demo of this app](https://to1vo.gitlab.io/toivo-lindholm/demos/to-do2/)
 
 <br>
-Toivo Lindholm
+Toivo Lindholm 2023
